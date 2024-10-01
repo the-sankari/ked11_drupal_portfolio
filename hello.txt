@@ -1,2 +1,5 @@
+
 Hello from pantheon.io
 
+url = git@github.com:the-sankari/dev-ked11-pantheon.git
+        fetch = +refs/heads/*:refs/remotes/github/*
