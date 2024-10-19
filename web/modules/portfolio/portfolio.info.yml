@@ -1,0 +1,5 @@
+name: 'portfolio'
+type: module
+description: 'Portfolio menu module'
+package: Custom
+core_version_requirement: ^10 || ^11

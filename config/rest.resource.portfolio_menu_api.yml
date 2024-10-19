@@ -1,13 +1,13 @@
-uuid: 8cd8910f-1b5b-4402-a57c-67ed82a8e886
+uuid: 27f79b2b-d465-43b1-bcdb-afe84d09fe0c
 langcode: en
 status: true
 dependencies:
   module:
-    - news
+    - portfolio
     - serialization
     - user
-id: news_menu_api
-plugin_id: news_menu_api
+id: portfolio_menu_api
+plugin_id: portfolio_menu_api
 granularity: resource
 configuration:
   methods:
@@ -17,6 +17,5 @@ configuration:
     - PATCH
   formats:
     - json
-    - xml
   authentication:
     - cookie

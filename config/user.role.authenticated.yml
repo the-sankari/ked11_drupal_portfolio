@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - rest.resource.portfolio_menu_api
   module:
     - comment
     - contact
     - file
     - filter
+    - rest
     - search
     - shortcut
     - system
@@ -25,6 +27,7 @@ permissions:
   - 'access site-wide contact form'
   - 'delete own files'
   - 'post comments'
+  - 'restful get portfolio_menu_api'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
