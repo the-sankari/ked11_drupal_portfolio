@@ -1,0 +1,9 @@
+uuid: bec4ceba-e44b-43cb-9121-7c07fb53b412
+langcode: en
+status: true
+dependencies: {  }
+name: type
+vid: type
+description: null
+weight: 0
+new_revision: false

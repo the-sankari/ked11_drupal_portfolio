@@ -1,0 +1,14 @@
+uuid: e9eda9c3-9349-44a3-a2b8-a38aba48f479
+langcode: en
+status: true
+dependencies: {  }
+name: banner_700x435
+label: 'Banner 700x435'
+effects:
+  626734d9-bc27-4518-9e9f-04ded4667009:
+    uuid: 626734d9-bc27-4518-9e9f-04ded4667009
+    id: image_resize
+    weight: 1
+    data:
+      width: 700
+      height: 435

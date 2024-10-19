@@ -1,0 +1,6 @@
+name: kdev11
+recipe: pantheon
+config:
+  framework: drupal8
+  site: kdev11
+  id: 72771b10-574c-4a7f-a608-552a70f8010d

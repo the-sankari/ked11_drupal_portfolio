@@ -1,0 +1,14 @@
+uuid: 78f00b8a-f991-41f6-823b-b63cbe61f365
+langcode: en
+status: true
+dependencies: {  }
+name: banner_1
+label: 'Banner 110x110'
+effects:
+  7a13a830-a74f-49b2-8c09-36b4dbaa2e13:
+    uuid: 7a13a830-a74f-49b2-8c09-36b4dbaa2e13
+    id: image_resize
+    weight: 1
+    data:
+      width: 110
+      height: 110
