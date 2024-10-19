@@ -126,9 +126,10 @@ final class MenuApiResource extends ResourceBase
                 $item['sub_menu'] = $this->buildTree($element->subtree);
             }
             $items[] = $item;
+            return $items;
         }
-        return $items;
     }
+
 
     /**
      * Responds to PATCH requests.
