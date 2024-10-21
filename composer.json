@@ -22,7 +22,8 @@
         "cweagans/composer-patches": "^1.7",
         "drush/drush": "^13",
         "drupal/admin_toolbar": "^3.5",
-        "drupal/restui": "^1.22"
+        "drupal/restui": "^1.22",
+        "drupal/inline_entity_form": "^3.0@RC"
     },
     "require-dev": {
         "drupal/core-dev": "^11"
