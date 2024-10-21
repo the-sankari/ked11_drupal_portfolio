@@ -1,22 +1,54 @@
-# Composer-enabled Drupal template
+# Kajol Sutra Dhar's portfolio
 
-This is Pantheon's recommended starting point for forking new [Drupal](https://www.drupal.org/) upstreams
-that work with the Platform's Integrated Composer build process. It is also the
-Platform's standard Drupal 9 upstream.
+This repository contains the source code for my portfolio website. It showcases my skills, projects, and provides a way to contact me. Below is an overview of the project structure and functionalities.
 
-Unlike with earlier Pantheon upstreams, files such as Drupal Core that you are
-unlikely to adjust while building sites are not in the main branch of the 
-repository. Instead, they are referenced as dependencies that are installed by
-Composer.
+## Project Structure
 
-For more information and detailed installation guides, please visit the
-Integrated Composer Pantheon documentation: https://pantheon.io/docs/integrated-composer
+- **index.html**: Main HTML file.
+- **css/**: Directory containing CSS stylesheets.
+- **assets/**: Directory containing assets like images.
+- **php/**: Directory containing PHP scripts for form processing.
+- **js/**: Directory containing JavaScript files.
 
-## Contributing
+## Functionality
 
-Contributions are welcome in the form of GitHub pull requests. However, the
-`pantheon-upstreams/drupal-composer-managed` repository is a mirror that does not
-directly accept pull requests.
+- **Header**: Contains logo and navigation menu.
+- **Home Section**: Displays greeting message and introduction.
+- **About Section**: Provides information about myself.
+- **Projects Section**: Showcases various projects.
+- **Contact Section**: Allows visitors to send messages.
+- **Footer**: Includes social media links and weather data.
 
-Instead, to propose a change, please fork [pantheon-systems/drupal-composer-managed](https://github.com/pantheon-systems/drupal-composer-managed)
-and submit a PR to that repository.
+## Usage
+
+To view the website
+Will be updated soon
+
+
+## Technologies Used
+- Drupal
+- React
+- Redux
+- PHP
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Font Awesome
+- Google Fonts
+
+### Preview
+
+
+<img src="https://github.com/the-sankari/projects_screenshots/raw/main/drupal_react_portfolio/screenshots/home.png" width="100%">
+<img
+src="https://github.com/the-sankari/projects_screenshots/raw/main/drupal_react_portfolio/screenshots/projects.png" width="100%">
+<img
+src="https://github.com/the-sankari/projects_screenshots/raw/main/drupal_react_portfolio/screenshots/contact.png" width="100%">
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+* kajol sutra dhar
