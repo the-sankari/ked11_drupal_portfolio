@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
     - field.field.node.page.field_news
+    - field.field.node.page.field_portfolio_kdev
     - node.type.page
   module:
     - text
@@ -30,3 +31,4 @@ content:
     region: content
 hidden:
   field_news: true
+  field_portfolio_kdev: true

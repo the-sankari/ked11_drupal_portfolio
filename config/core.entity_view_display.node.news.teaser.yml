@@ -8,6 +8,8 @@ dependencies:
     - field.field.node.news.field_banner_1
     - field.field.node.news.field_banner_2
     - field.field.node.news.field_banner_3
+    - field.field.node.news.field_categories
+    - field.field.node.news.field_type
     - node.type.news
   module:
     - text
@@ -34,3 +36,5 @@ hidden:
   field_banner_1: true
   field_banner_2: true
   field_banner_3: true
+  field_categories: true
+  field_type: true

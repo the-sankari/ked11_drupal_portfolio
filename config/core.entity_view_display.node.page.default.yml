@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_news
+    - field.field.node.page.field_portfolio_kdev
     - node.type.page
   module:
     - text
@@ -30,6 +31,14 @@ content:
       link: true
     third_party_settings: {  }
     weight: 102
+    region: content
+  field_portfolio_kdev:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
     region: content
   links:
     weight: 101

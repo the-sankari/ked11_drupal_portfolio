@@ -1,0 +1,24 @@
+uuid: a1fac775-0b60-4c5a-b9eb-ebd4714a5d01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hero_page
+  module:
+    - text
+id: node.hero_page.body
+field_name: body
+entity_type: node
+bundle: hero_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,36 @@
+uuid: 4f841ebc-347c-4001-950e-9ad2bb739d56
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.footer.body
+    - field.field.node.footer.field_footer_text
+    - field.field.node.footer.field_social_media
+    - field.field.node.footer.field_social_media_icon
+    - node.type.footer
+  module:
+    - text
+    - user
+id: node.footer.teaser
+targetEntityType: node
+bundle: footer
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_footer_text: true
+  field_social_media: true
+  field_social_media_icon: true

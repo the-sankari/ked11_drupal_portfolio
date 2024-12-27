@@ -1,0 +1,36 @@
+uuid: 9cc95422-7493-413f-99e6-9645ed3b9dc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.contact.body
+    - field.field.node.contact.field_contact_info
+    - field.field.node.contact.field_social_media
+    - field.field.node.contact.field_social_media_icon
+    - node.type.contact
+  module:
+    - text
+    - user
+id: node.contact.teaser
+targetEntityType: node
+bundle: contact
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_contact_info: true
+  field_social_media: true
+  field_social_media_icon: true

@@ -1,0 +1,19 @@
+uuid: 1e7fa6f1-7d51-4795-a94f-8d234a79b18b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_footer_text
+    - node.type.footer
+id: node.footer.field_footer_text
+field_name: field_footer_text
+entity_type: node
+bundle: footer
+label: 'footer text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: c5123e12-f1e3-429d-8e83-14b2b26379e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_text
+    - node.type.about
+id: node.about.field_about_text
+field_name: field_about_text
+entity_type: node
+bundle: about
+label: about_text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

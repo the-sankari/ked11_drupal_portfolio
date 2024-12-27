@@ -1,0 +1,19 @@
+uuid: 8faeff3a-d1d2-422b-9aed-b03413fad8dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_bold_text
+    - node.type.hero_page
+id: node.hero_page.field_hero_bold_text
+field_name: field_hero_bold_text
+entity_type: node
+bundle: hero_page
+label: hero_bold_text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

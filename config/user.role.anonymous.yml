@@ -4,12 +4,10 @@ status: true
 dependencies:
   config:
     - filter.format.restricted_html
-    - rest.resource.portfolio_menu_api
   module:
     - comment
     - contact
     - filter
-    - rest
     - search
     - system
 _core:
@@ -22,6 +20,5 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
-  - 'restful get portfolio_menu_api'
   - 'search content'
   - 'use text format restricted_html'

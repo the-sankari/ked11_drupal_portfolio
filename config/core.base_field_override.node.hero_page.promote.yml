@@ -1,0 +1,22 @@
+uuid: c5dcf4e4-208e-45c4-afa5-de446b567bbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hero_page
+id: node.hero_page.promote
+field_name: promote
+entity_type: node
+bundle: hero_page
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

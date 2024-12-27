@@ -1,0 +1,36 @@
+uuid: b75aab58-38e2-46ed-af92-6527d06d81a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.home_page.body
+    - field.field.node.home_page.field_about_page_image
+    - field.field.node.home_page.field_homepage_image_1
+    - field.field.node.home_page.field_intro
+    - node.type.home_page
+  module:
+    - text
+    - user
+id: node.home_page.teaser
+targetEntityType: node
+bundle: home_page
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_about_page_image: true
+  field_homepage_image_1: true
+  field_intro: true

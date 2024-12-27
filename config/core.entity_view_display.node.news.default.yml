@@ -7,6 +7,8 @@ dependencies:
     - field.field.node.news.field_banner_1
     - field.field.node.news.field_banner_2
     - field.field.node.news.field_banner_3
+    - field.field.node.news.field_categories
+    - field.field.node.news.field_type
     - node.type.news
   module:
     - image
@@ -56,6 +58,22 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 104
+    region: content
+  field_categories:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
     region: content
   links:
     settings: {  }

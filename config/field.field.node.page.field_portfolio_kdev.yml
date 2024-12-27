@@ -1,0 +1,37 @@
+uuid: 9c96d116-da6d-427d-b95a-8ebcd5ea437d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portfolio_kdev
+    - node.type.about
+    - node.type.contact
+    - node.type.footer
+    - node.type.hero_page
+    - node.type.page
+    - node.type.projects
+id: node.page.field_portfolio_kdev
+field_name: field_portfolio_kdev
+entity_type: node
+bundle: page
+label: portfolio_kdev
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      about: about
+      contact: contact
+      footer: footer
+      hero_page: hero_page
+      projects: projects
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: about
+field_type: entity_reference

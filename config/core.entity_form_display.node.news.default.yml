@@ -7,6 +7,8 @@ dependencies:
     - field.field.node.news.field_banner_1
     - field.field.node.news.field_banner_2
     - field.field.node.news.field_banner_3
+    - field.field.node.news.field_categories
+    - field.field.node.news.field_type
     - image.style.thumbnail
     - node.type.news
   module:
@@ -57,6 +59,26 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_categories:
+    type: entity_reference_autocomplete
+    weight: 126
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_type:
+    type: entity_reference_autocomplete
+    weight: 125
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path
